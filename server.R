@@ -14,6 +14,14 @@ getOption("scipen")
 opt <- options("scipen" = 20)
 getOption("scipen")
 
+#Create a vector of total Males & Females
+totalM = tnmat[3,]
+totalF = tnmat[4,]
+
+#Create a vector of males & females attending education institution
+eduM = tnmat[6,]
+eduF = tnmat[7,]
+
 shinyServer(function(input, output) {
   
   output$main_plot <- renderPlot({
