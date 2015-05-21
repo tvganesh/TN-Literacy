@@ -4,7 +4,7 @@
 # Uses package Shiny
 # This project uses shiny to display the literacy in the state of Tamil Nadu.
 #  The user needs to click a radio button to choose an option 
-
+library(shiny)
 shinyUI(
   pageWithSidebar(
     # Set the application title
