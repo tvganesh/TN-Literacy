@@ -1,6 +1,3 @@
-# TN-Literacy
-This project uses Shiny for literacy in the state of Tamil Nadu
-
 ---
 title: "Literacy in Tamil Nadu - Shiny project"
 author: "Tinniam V Ganesh"
